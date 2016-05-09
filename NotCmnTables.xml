@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 共通でないテーブルを書いていく -->
+<Tables>
+  <Table><Name>qc_out_ucs_doa</Name></Table>
+  <Table><Name>qc_out_2004_noncqap</Name></Table>
+  <Table><Name>qc_out_2004_2900isr</Name></Table>
+  <Table><Name>qc_out_2004_cius</Name></Table>
+</Tables> 

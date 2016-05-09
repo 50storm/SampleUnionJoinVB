@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SampleUnionJoin
+</name>
+</assembly>
+<members>
+<member name="T:SampleUnionJoin.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SampleUnionJoin.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SampleUnionJoin.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:SampleUnionJoin.QcOut.GetSqlCommonTableName(System.Collections.ArrayList)">
+ <summary>
+ 共通のテーブル名を取得するSQLを返す
+ </summary>
+ <param name="NotCommonTable">共通でないテーブル名</param>
+ <returns>共通のテーブル名を取得するSQLを返す</returns>
+</member>
+<member name="M:SampleUnionJoin.QcOut.GetCommonTableName(System.String)">
+ <summary>
+ テーブル名(共通）を取得する
+ </summary>
+ <param name="SqlCommonTableName"></param>
+ <returns></returns>
+</member>
+<member name="M:SampleUnionJoin.QcOut.GetCommonTables(System.String,System.String[])">
+ <summary>
+ 共通テーブル（UNION）のデータセットを返す
+ </summary>
+ <param name="_DataSetName">データセットで使う名前</param>
+ <param name="ParaTables"></param>
+ <returns></returns>
+</member>
+<member name="M:SampleUnionJoin.QcOut.GetTable(System.String)">
+ <summary>
+ 単一のテーブルのデータセットを返す
+ </summary>
+ <returns>UNIONのSQLを実行したデータセット</returns>
+</member>
+</members>
+</doc>
